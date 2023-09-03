@@ -1,6 +1,7 @@
+"use client"
 
 import './globals.css'
-import type { Metadata } from 'next'
+// import type { Metadata } from 'next'
 import { Figtree } from 'next/font/google'
 import { QueryClient, QueryClientProvider } from 'react-query';
 import Header from '@/components/Header';
@@ -13,10 +14,10 @@ const queryClient = new QueryClient();
 
 const font = Figtree({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Online Store',
-  description: 'Ecommerce web app',
-}
+// export const metadata = {
+//   title: 'Online Store',
+//   description: 'Ecommerce web app',
+// }
 
 
 

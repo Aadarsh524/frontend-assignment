@@ -1,3 +1,5 @@
+"use client"
+
 import { AiOutlineSearch, AiOutlineShoppingCart } from 'react-icons/ai';
 import Link from 'next/link';
 import { Badge } from '@mui/material';
